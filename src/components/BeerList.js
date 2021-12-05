@@ -18,8 +18,6 @@ function BeerList() {
     return <p>Serving Beer</p>;
   }
 
-  console.log(beers);
-
   return (
     <>
       {beers.map((elem, i) => {

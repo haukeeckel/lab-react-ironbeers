@@ -14,7 +14,6 @@ function BeerDetailed() {
   useEffect(() => {
     (async () => {
       let { data } = await axios.get(url);
-      console.log(data);
       setBeer(data);
     })();
   }, []);
